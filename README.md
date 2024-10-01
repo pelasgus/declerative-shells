@@ -21,7 +21,7 @@
  ```
 
  > [!TIP]
- > A `shell.nix` is included in the subdirectory `/etc/shells`. Use as follows:
+ > A `shell.nix` is included in the subdirectory `etc/shells/nix`. Use as follows:
  ```sh
  nix-shell shell.nix
  ```
@@ -38,7 +38,7 @@
  ```
 
  > [!TIP]
- > A `manifest.scm` is included in the subdirectory `/etc/shells`. Use as follows:
+ > A `manifest.scm` is included in the subdirectory `etc/shells/guix`. Use as follows:
  ```sh
  guix shell -m manifest.scm
  ```
